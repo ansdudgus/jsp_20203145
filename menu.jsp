@@ -7,22 +7,16 @@
 			<a class="navbar-brand">Home</a>
 		</div>
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./slideShow.jsp">Slide Show</a>
+			<a class="navbar-brand" href="./select.jsp">회원조회</a>
 		</div>
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./login.jsp">Login</a>
+			<a class="navbar-brand" href="./delete.html">회원탈퇴</a>
 		</div>
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./Signup.jsp">Sign Up</a>
+			<a class="navbar-brand" href="./update.html">회원수정</a>
 		</div>
 		<div class="navbar-header">
-			<a class="navbar-brand" href="./Introduce.jsp">Introduce</a>
-		</div>
-		<div class="navbar-header">
-			<a class="navbar-brand" href="./Information.jsp">Information</a>
-		</div>
-		<div class="navbar-header">
-			<a class="navbar-brand" href="./Chosun.jsp">Chosun University</a>
+			<a class="navbar-brand" href="./write.html">글쓰기</a>
 		</div>
 	</div>
 </nav>

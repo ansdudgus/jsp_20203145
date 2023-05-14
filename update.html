@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    background-color: lightblue;
+  }
+</style>
+</head>
+<body>
+<form action="update.jsp" method="post">
+<h1>회원정보 수정 페이지 입니다 - JSP_문영현</h1> <hr>
+<table align=center>
+<tr><td colspan=2 align=center height=40><b>회원정보 수정</b><td></tr>
+<tr>
+	<td align=right>수정할 이름&nbsp;</td>
+	<td><input type="text" name="new_name" required></td>
+</tr>
+<tr>
+	<td align=right>회원 이름</td>
+	<td><input type="text" name="name" required></td>
+</tr>
+<tr>
+	<td colspan=2 align=center height=50>
+		<input type="submit" value="수정하기">
+		<button onclick="location.href='index_main.jsp'">메인페이지</button>
+	</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

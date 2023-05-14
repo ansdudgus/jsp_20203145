@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    background-color: lightblue;
+  }
+</style>
+</head>
+<body>
+<form action="write.jsp" method="post">
+<h1>글 작성 페이지 입니다 - JSP_문영현</h1> <hr>
+<table align=center>
+<tr><td colspan=2 align=center height=40><b>글작성</b><td></tr>
+<tr>
+	<td align=right>아이디&nbsp;</td> 
+	<td><input type="text" name="id" required></td>
+</tr>
+<tr>
+	<td align=right>작성글&nbsp;</td> 
+	<td><textarea name="content" rows=5 cols=20></textarea></td>
+</tr>
+<tr>
+	<td colspan=2 align=center height=50>
+		<input type="submit" value="업로드하기">
+		<button onclick="location.href='index_main.jsp'">메인페이지</button>
+	</td>
+</tr>
+</table>
+</form>
+<a href="./index_main.jsp">메인페이지로 이동하기</a>
+</body>
+</html>
